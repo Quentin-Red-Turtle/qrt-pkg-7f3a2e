@@ -1,11 +1,11 @@
 {
-  "version": "0.2.1",
-  "notes": "Corrige : le Planificateur de veille échouait avec 'Erreur : date de début incorrecte' sur les systèmes Windows en français (et toute langue n'utilisant pas le format de date américain). Le format de date attendu par schtasks dépend de la langue du système — corrigé pour s'adapter automatiquement.",
-  "pub_date": "2026-06-24T09:00:00Z",
+  "version": "0.2.2",
+  "notes": "Planificateur de veille : ajoute un compte à rebours en direct avant chaque déclenchement, et plusieurs types d'action au choix (veille, hibernation, extinction, redémarrage, verrouillage de l'écran) au lieu de juste la mise en veille.",
+  "pub_date": "2026-06-24T10:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGk1RjU3NFJ5VU05cWFRRkRaSFF3Sk9CRysySFAzdWNkUyttSVhILzZHd245NDE0K2hOVjg5UzNrU2RmdWdma3JLSW1yRHB6NHZDOC8xRUhNQ09yQWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzAwNTgzCWZpbGU6QmlkdWxlXzAuMi4xX3g2NC1zZXR1cC5leGUKVEVNanpYWU50bUQyMmdBUUVSRUtPSzZ1UVZFY3N5QVN4ZW41SUlKTnM0dnoreE5ra3IzaHovVkxiV2VJQjV5dEhZOGtXWDdvaTVjS3NMU2kxVTI2Qnc9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.2.1/Bidule_0.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHFKUkdmVWRWS2UvRDhZaG5ONHI2VEt2ZDFNUkxkKy9qNVByYXFCclhidUN1eG5PeUFDdEhpdHcyMlZIZ3c0L3FZUTFLdlJDUmpJaWw5a2d5S1ZvbGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzAxMDE1CWZpbGU6QmlkdWxlXzAuMi4yX3g2NC1zZXR1cC5leGUKM1crc3ZXeDFCbE9oejYxZTcxSVhmekQrbXdCVXk2cW9VVlBIVFFUUTQ3dURlYWpRemlHSG5pRmpnTzgyK2dhVE4rUm4xY1dZcTJHODQyTk1tcEMvQnc9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.2.2/Bidule_0.2.2_x64-setup.exe"
     }
   }
 }
