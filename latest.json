@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "Nouveau : notification overlay animée façon IA (anneaux géométriques lumineux, glow) qui s'affiche en haut à gauche 15 secondes avant qu'une action du Planificateur de veille ne se déclenche, puis s'efface en fondu. Cliquable au travers, jamais intrusive.",
-  "pub_date": "2026-06-24T12:00:00Z",
+  "version": "0.3.1",
+  "notes": "Nouveau : page Options (durée d'affichage et son configurables pour la notification, bouton de test). Corrige : la notification overlay était illisible sur fond clair — ajout d'un fond sombre semi-transparent type 'verre dépoli' pour garantir le contraste quel que soit ce qu'il y a derrière.",
+  "pub_date": "2026-06-24T13:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHVhQ042MUxCS2VIRlNnWm9BVG53WFNFMTdtRmVTYmE5a1NqTlBtVURaendUajhrSGx3aGpRWkxuODNwT2RKaDJZQnNPQ1lDTCttZmVSYnh1eS8xR0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzA2NzY2CWZpbGU6QmlkdWxlXzAuMy4wX3g2NC1zZXR1cC5leGUKNEdWU1lWajhYdGdNWW1ISlpLK1NCY01wRXZ0Qk5tS3NtaUVnbU9WdG12SlFVOEZvSTA3TXlCUkpvMUxGT29QaTBLTHlTMUprMGFqTDcwSVc0bk5zQnc9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.3.0/Bidule_0.3.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHIzTzBVK0pULzB6UmFCZkJFemRhUHdHaE9LS0FIdWFLelkzNDBBekp6NzZGMVNPYlBscUdqcFFkNjdlT0E3UmFtNUJITU9hWHdkZlczQzV5UHFKR3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzA3NzUzCWZpbGU6QmlkdWxlXzAuMy4xX3g2NC1zZXR1cC5leGUKcUFNMmtjUEVuUjlDNFBhRE1nN0pjakl0K3IvclJsVXdLWEIwa2tqTHRYcnFyOWpSeUdMcUtvbUx2aWtvUkl2SDByc1RTWmpTaVNrSGRpTkJMRCtSRFE9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.3.1/Bidule_0.3.1_x64-setup.exe"
     }
   }
 }
