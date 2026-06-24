@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
-  "notes": "Corrige : un dossier d'extraction vide (laissé par une tentative précédente échouée) bloquait définitivement toute nouvelle tentative. Un dossier vide peut maintenant être réutilisé sans risque. Messages d'erreur bien plus précis à chaque étape de l'extraction (fichier introuvable, archive invalide, archive vide...).",
-  "pub_date": "2026-06-24T06:00:00Z",
+  "version": "0.2.0",
+  "notes": "Nouveau : outil 'Réseau' pour partager un fichier avec n'importe qui sur Internet — connexion directe chiffrée de bout en bout (iroh), aucun serveur de stockage, échange par ticket à usage limité dans le temps. L'ancien outil 'Réseau' (LAN) est renommé 'Réseau local'.",
+  "pub_date": "2026-06-24T08:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHVvSkI5TGVxQXZKTko1TExSWWFpV3VzY25aYm00OUJSRmZxQXpRb2YvTDMwcVZOZ0Z4dGpJd2VLYzdGaE91S2VKei83ZUdkdTBONUFxcWh2Z1BuQWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMjcwOTUxCWZpbGU6QmlkdWxlXzAuMS40X3g2NC1zZXR1cC5leGUKbk9RNDAwK2p5dlJUa1ZPeTRITXg2K3JMZ3htWG9Wd0MrRUVyKzlZSUgwRFJZaEczc1Jyb0dpQUxRTGdtWjZLM2dNQ0ZPUkxCNWVzLzNDSTcvdGpCQ0E9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.1.4/Bidule_0.1.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHRxa2wzQTFHMzNLOEh6RlRYZmhMU0xqU243cDBxVzJWVVRMdU1KNllJUnRUSlMrSld6Z1dYV0Jja2R6QWtMYnFLZ2c0NmprWDNFVkMyMUFPYU45QVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMjk5MDY5CWZpbGU6QmlkdWxlXzAuMi4wX3g2NC1zZXR1cC5leGUKSUgwNG8zSTYxbjRmNmZ6dnlJTjJOWjJFUTkza0dEZnAzcWtSWXpRdFo3U0lmSXlFWUp4aUFQUXR4ZTFDVjRSMEZOb0hzQjkyTGFwaitmeHk2WnF6RFE9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.2.0/Bidule_0.2.0_x64-setup.exe"
     }
   }
 }
