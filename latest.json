@@ -1,11 +1,11 @@
 {
-  "version": "0.4.3",
-  "notes": "Corrige une régression introduite par le correctif de sécurité précédent (0.4.1) : réduire le délai de nettoyage à 5s pouvait faire supprimer un gros fichier reçu (outil Réseau) avant qu'il ait fini d'être copié, provoquant 'Le fichier spécifié est introuvable' sur des téléchargements de plus de quelques secondes. Le fichier reçu est maintenant protégé du nettoyage automatique pendant toute la durée de la réception.",
-  "pub_date": "2026-06-24T18:00:00Z",
+  "version": "0.4.4",
+  "notes": "Corrige enfin la vraie faille de confidentialité du partage Internet (outil Réseau) : 'Arrêter le partage' ne révoquait jamais réellement l'accès, car iroh créait en coulisses un second tag permanent que Bidule ne connaissait pas et ne supprimait donc jamais. Un partage arrêté est maintenant vraiment inaccessible (après le court délai de nettoyage automatique).",
+  "pub_date": "2026-06-24T19:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUG43MXM2SDlGODJ1SlR4bFRPdVRUWnhlR0cvb1ZmR0d6emlxSCsydVJYd3IyUUJZSTQ0TTZoMVlweVlsM21nNGxhNG5jVVEySS9rREVIVjJlcy8ySVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzEzODY2CWZpbGU6QmlkdWxlXzAuNC4zX3g2NC1zZXR1cC5leGUKRjhQUGx1R2xXSGVkQnVJanhyZjFuNFN0WHpla3RkM3dRbkhiQkZrdEJMRFM5RWVQMnhjdjNpbVZQQWRzL3JaR2xCN0NrN1RzUEJGSE9SUXFZeUNiQVE9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.4.3/Bidule_0.4.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGh0blNvZFFRc1prZjZGNVIvRFM3cHNkYTJMNUFYdWJ5UXNnbm54U2F5U1NDU01scjFuQ21DNHhRaVZBa2lnb1J2SUZ4dXVNa3hIUjNCelhCamd0K1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzE1NTM0CWZpbGU6QmlkdWxlXzAuNC40X3g2NC1zZXR1cC5leGUKRnJoTHFOQkF6bVlmeTdTN3g2N3ZuUWZ5Y0hCMWVnWUE5bFQ3UEYyMmRRM3QzU1dHeGRIdzJkWWNCdGxwcWw3MmVXVDVVaDcxZ3pNcms2RXd3azFUQkE9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.4.4/Bidule_0.4.4_x64-setup.exe"
     }
   }
 }
