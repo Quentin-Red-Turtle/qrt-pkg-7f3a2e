@@ -1,11 +1,11 @@
 {
-  "version": "0.1.1",
-  "notes": "Correctif de sécurité critique : le dézippage automatique pouvait effacer le contenu d'un dossier existant (ex. le Bureau) avant d'extraire. Il extrait désormais toujours dans un sous-dossier dédié, jamais dans le dossier choisi lui-même.",
-  "pub_date": "2026-06-24T03:00:00Z",
+  "version": "0.1.2",
+  "notes": "Corrige : activer 'dézipper auto' sur un fichier déjà à jour n'extrayait rien (il fallait attendre une nouvelle version). Ça extrait maintenant immédiatement le fichier déjà téléchargé.",
+  "pub_date": "2026-06-24T04:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHZRTlZoVmd5ZTZlU1BHQTBXbVNwZHFZdXBrWHdDQkkxb1FWZ2VINnZsMmdtNzhFQXZoSUROZzRkZ1JKYW41bjhad1VwZUdWSGI4TUlKbFJ6WG5BRVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMjY3NzA2CWZpbGU6QmlkdWxlXzAuMS4xX3g2NC1zZXR1cC5leGUKL3dXNW9BaDFFMll0NUN2bUZjVXNvR2x3ZDB6eFd3QllLK2Q4c3VHWXdaejBTa09SNVF1b1BlTjFzWXVtNEpDMmErdUhuczNMMTFKaVlyN0tiSTY1Qnc9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.1.1/Bidule_0.1.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHY3TDkrd1M0aE4rbnpGWksxYUR1eWYwa3dwM0pBTDNERUc4UERwSE5iZFlOeHZudHRXZXFzRzFYTXRQRFFPd2lQdWdzQzE5M1grUkdIdWNneHA3Tmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMjY4MzE0CWZpbGU6QmlkdWxlXzAuMS4yX3g2NC1zZXR1cC5leGUKSXE2K0swYkRVLzc3OEpWNWlWWlI2TzU1R0ZyS0hQRE1IU1RoQllwS1VQQldnY2M2ckl3ckJUeWJDOFZ6UGNZUTlrK1hCb04zSHpoYVp0RHpCQmJzRHc9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.1.2/Bidule_0.1.2_x64-setup.exe"
     }
   }
 }
