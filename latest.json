@@ -1,11 +1,11 @@
 {
-  "version": "0.4.0",
-  "notes": "Partage Internet (outil Réseau) bien plus fiable : corrige une condition de course qui faisait parfois échouer la connexion entre les deux PC ('Unable to download...'). Le ticket inclut maintenant le nom et la taille du fichier (plus de nom vide à la réception), et un vrai retour visuel apparaît pendant le transfert (connexion, progression, copie finale).",
-  "pub_date": "2026-06-24T15:00:00Z",
+  "version": "0.4.1",
+  "notes": "Sécurité : \"Arrêter le partage\" (outil Réseau) coupe maintenant l'accès en quelques secondes au lieu de jusqu'à 30s (le fichier restait téléchargeable via le ticket pendant cette fenêtre). Corrige aussi l'échec à 100% sur les gros fichiers (1+ Go) lors de la copie finale : repli par copie en flux au lieu d'un chargement en mémoire qui dépassait une limite interne.",
+  "pub_date": "2026-06-24T16:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHN4ZlV0OHFKUVFCaTZuV2dJendycUxtcDFtdWpQNDQ0b0locEdzdlM1eE5WS01RMWVETHhYTTB5LzNTWFhXTWZFVy9SdjRrVmtySk5CN1V0YXdzY0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzEwMjAxCWZpbGU6QmlkdWxlXzAuNC4wX3g2NC1zZXR1cC5leGUKc2Uvamh5Uk4wWWN4c1JmNDZoUUZBSTNiemk0RjlneGM0czRLckhMc1QxdnZMcFhtS1NaRlM2UWdDMmtmckkxTThSTExhUGpJL1VkcHZpbzFnMU9HRHc9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.4.0/Bidule_0.4.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUG5XaGhRTzRLK3Bid1RnaUpjRXhYYk1RdkttSmxncHNuU1E1VkwwSTBtRldGdk05aFNqVTg3ci9jVTlRdGNjaDgrMUNLWEFSSHdoaGxMRUVLS2wyVWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzExNjM1CWZpbGU6QmlkdWxlXzAuNC4xX3g2NC1zZXR1cC5leGUKLzVVSGllcHpYNkhmMGtpdXRjdWtHeHpNQVdHQmdRUERhMzlNK1F4UStUaXJaN253Z1B1UHlEdFVFYTFlUmRVR1YzbmEzdldiSkVHbms3N2xYSGJqRHc9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.4.1/Bidule_0.4.1_x64-setup.exe"
     }
   }
 }
