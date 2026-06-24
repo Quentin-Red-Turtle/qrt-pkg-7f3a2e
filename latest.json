@@ -1,11 +1,11 @@
 {
-  "version": "0.5.0",
-  "notes": "Le système de notification overlay s'appelle désormais AEGIS. Outil Réseau : un indicateur \"téléchargement en cours\" apparaît côté envoyeur quand quelqu'un télécharge un de tes partages, et AEGIS prévient désormais côté receveur quand un fichier reçu est complètement disponible (plus besoin de garder Bidule ouvert à surveiller).",
-  "pub_date": "2026-06-24T20:00:00Z",
+  "version": "0.6.0",
+  "notes": "Agenda repensé : regroupement par jour avec dates lisibles, séparateur visuel proportionnel à l'écart entre deux dates éloignées, et intégration des planifications du Planificateur Windows (renommé, anciennement 'de veille') avec code couleur et 3 niveaux d'affichage (visible/réduit/invisible, réglable en masse depuis l'Agenda). Les rappels AEGIS sont maintenant configurables (Options) : plusieurs délais avant l'échéance, par défaut 1h/15min/10min/1min, pour toutes les tâches et planifications. Le bouton Options est désormais épinglé en bas de la barre latérale.",
+  "pub_date": "2026-06-25T10:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGxTQnBtclNNYmpndFZkRkIzRjgvUnJUUElDZ0loekxBbk15SlZDRkdFMzZlVnR4ZDhDR29FTDVTWnA5Z2NZSElDMHRNL21SMUpjRnlqODhSZHFCeGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzIwMTI0CWZpbGU6QmlkdWxlXzAuNS4wX3g2NC1zZXR1cC5leGUKNFBsb3V5R2tnSkNTMFUyWENGME5WNmJ3OHYvNy91WTJmd2IzeHlETHp4Qng4VlZWRStXeXJoLy9Vd1E2NUtuRi8rYmhja1FLYjdPVlMrMGk4STZVQWc9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.5.0/Bidule_0.5.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUG5nb3lORS9RR1c1NkMyeFNGVkNJQjF2ZFd3bHIxUHRUTlBBRU0rbFA0QTBUZWJEeUtSNUtONEFzQ1I5UnB2Q01LY01MQjlRZ0ZNKzN6aTFRenIvcUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzM1MjIyCWZpbGU6QmlkdWxlXzAuNi4wX3g2NC1zZXR1cC5leGUKemh6ZHJhNng0bnd5c2RMTTNWT3RNTTZPSFZaOUl6UzlKTk96ejkwQVo4Tk9MeDM4c3lQdGpLOVBFcWFwMFdOaUxOTGpTUmV1NTd3S080MnZLUkcrQ0E9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.6.0/Bidule_0.6.0_x64-setup.exe"
     }
   }
 }
