@@ -1,11 +1,11 @@
 {
-  "version": "0.3.1",
-  "notes": "Nouveau : page Options (durée d'affichage et son configurables pour la notification, bouton de test). Corrige : la notification overlay était illisible sur fond clair — ajout d'un fond sombre semi-transparent type 'verre dépoli' pour garantir le contraste quel que soit ce qu'il y a derrière.",
-  "pub_date": "2026-06-24T13:00:00Z",
+  "version": "0.3.2",
+  "notes": "Corrige : la réception d'un partage Internet (outil Réseau) pouvait échouer à la copie finale du fichier sur certaines configurations ('Échec de la copie : inner error: Error::Io'). Ajout d'un repli automatique par copie manuelle si la méthode rapide échoue, et création du dossier de destination si besoin.",
+  "pub_date": "2026-06-24T14:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHIzTzBVK0pULzB6UmFCZkJFemRhUHdHaE9LS0FIdWFLelkzNDBBekp6NzZGMVNPYlBscUdqcFFkNjdlT0E3UmFtNUJITU9hWHdkZlczQzV5UHFKR3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzA3NzUzCWZpbGU6QmlkdWxlXzAuMy4xX3g2NC1zZXR1cC5leGUKcUFNMmtjUEVuUjlDNFBhRE1nN0pjakl0K3IvclJsVXdLWEIwa2tqTHRYcnFyOWpSeUdMcUtvbUx2aWtvUkl2SDByc1RTWmpTaVNrSGRpTkJMRCtSRFE9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.3.1/Bidule_0.3.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGxqMUVPSlp5TzBYLzNzMlcvZU8xRWdZQzk0ZE1RY2dmZXhPK1JGa1ZEWGJGY0JKYVZSdGQ2L3BXMkxhTk5wNldOSGRQSHJqU3FJSXQyMkkxTUtFTGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzA4NzAyCWZpbGU6QmlkdWxlXzAuMy4yX3g2NC1zZXR1cC5leGUKeDNFckQxTlp0ZHBybE1XTGhpOUVwb1drcWFnVkVCTTRjdURjNHMvR0ZEcUdJT2VNWFVDMFNLalI3NlBnTlFsa2htRGN3dmdJZjVoWjZ5ZHpNdVVXQ0E9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.3.2/Bidule_0.3.2_x64-setup.exe"
     }
   }
 }
