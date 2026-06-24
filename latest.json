@@ -1,11 +1,11 @@
 {
-  "version": "0.4.4",
-  "notes": "Corrige enfin la vraie faille de confidentialité du partage Internet (outil Réseau) : 'Arrêter le partage' ne révoquait jamais réellement l'accès, car iroh créait en coulisses un second tag permanent que Bidule ne connaissait pas et ne supprimait donc jamais. Un partage arrêté est maintenant vraiment inaccessible (après le court délai de nettoyage automatique).",
-  "pub_date": "2026-06-24T19:00:00Z",
+  "version": "0.5.0",
+  "notes": "Le système de notification overlay s'appelle désormais AEGIS. Outil Réseau : un indicateur \"téléchargement en cours\" apparaît côté envoyeur quand quelqu'un télécharge un de tes partages, et AEGIS prévient désormais côté receveur quand un fichier reçu est complètement disponible (plus besoin de garder Bidule ouvert à surveiller).",
+  "pub_date": "2026-06-24T20:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGh0blNvZFFRc1prZjZGNVIvRFM3cHNkYTJMNUFYdWJ5UXNnbm54U2F5U1NDU01scjFuQ21DNHhRaVZBa2lnb1J2SUZ4dXVNa3hIUjNCelhCamd0K1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzE1NTM0CWZpbGU6QmlkdWxlXzAuNC40X3g2NC1zZXR1cC5leGUKRnJoTHFOQkF6bVlmeTdTN3g2N3ZuUWZ5Y0hCMWVnWUE5bFQ3UEYyMmRRM3QzU1dHeGRIdzJkWWNCdGxwcWw3MmVXVDVVaDcxZ3pNcms2RXd3azFUQkE9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.4.4/Bidule_0.4.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGxTQnBtclNNYmpndFZkRkIzRjgvUnJUUElDZ0loekxBbk15SlZDRkdFMzZlVnR4ZDhDR29FTDVTWnA5Z2NZSElDMHRNL21SMUpjRnlqODhSZHFCeGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzIwMTI0CWZpbGU6QmlkdWxlXzAuNS4wX3g2NC1zZXR1cC5leGUKNFBsb3V5R2tnSkNTMFUyWENGME5WNmJ3OHYvNy91WTJmd2IzeHlETHp4Qng4VlZWRStXeXJoLy9Vd1E2NUtuRi8rYmhja1FLYjdPVlMrMGk4STZVQWc9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.5.0/Bidule_0.5.0_x64-setup.exe"
     }
   }
 }
