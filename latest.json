@@ -1,11 +1,11 @@
 {
-  "version": "0.4.2",
-  "notes": "Diagnostic plus poussé pour l'échec de copie finale d'un fichier reçu (outil Réseau) : le message d'erreur remonte maintenant la cause système réelle (espace disque, permissions, etc.) au lieu d'un vague 'Error::Io'. Ajoute aussi un court réessai automatique avant d'utiliser le repli, au cas où ce soit une simple course interne.",
-  "pub_date": "2026-06-24T17:00:00Z",
+  "version": "0.4.3",
+  "notes": "Corrige une régression introduite par le correctif de sécurité précédent (0.4.1) : réduire le délai de nettoyage à 5s pouvait faire supprimer un gros fichier reçu (outil Réseau) avant qu'il ait fini d'être copié, provoquant 'Le fichier spécifié est introuvable' sur des téléchargements de plus de quelques secondes. Le fichier reçu est maintenant protégé du nettoyage automatique pendant toute la durée de la réception.",
+  "pub_date": "2026-06-24T18:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHRKWHNxK3daNTlwMHIrOVNIenBadEloOURlRVpCNThkL01TWXJyVFlsSmFUV2ZEWHJMbGFoWE9DZXJkeWtydVlHdEY2TktlWW91OVVWNk94RFFHcXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzEyNzU5CWZpbGU6QmlkdWxlXzAuNC4yX3g2NC1zZXR1cC5leGUKUVZQWElna2luQnJyOE4xNGh2WmZuZ3Z5ejVoTmc4QnpIbHJBcFpjSFJIbnhoZnZXSzRicHhINmVTMjZsSUtTMk5zSUZwOCtwM3RXMlFLU2dmcjE0Q0E9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.4.2/Bidule_0.4.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUG43MXM2SDlGODJ1SlR4bFRPdVRUWnhlR0cvb1ZmR0d6emlxSCsydVJYd3IyUUJZSTQ0TTZoMVlweVlsM21nNGxhNG5jVVEySS9rREVIVjJlcy8ySVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzEzODY2CWZpbGU6QmlkdWxlXzAuNC4zX3g2NC1zZXR1cC5leGUKRjhQUGx1R2xXSGVkQnVJanhyZjFuNFN0WHpla3RkM3dRbkhiQkZrdEJMRFM5RWVQMnhjdjNpbVZQQWRzL3JaR2xCN0NrN1RzUEJGSE9SUXFZeUNiQVE9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.4.3/Bidule_0.4.3_x64-setup.exe"
     }
   }
 }
