@@ -1,11 +1,11 @@
 {
-  "version": "0.2.2",
-  "notes": "Planificateur de veille : ajoute un compte à rebours en direct avant chaque déclenchement, et plusieurs types d'action au choix (veille, hibernation, extinction, redémarrage, verrouillage de l'écran) au lieu de juste la mise en veille.",
-  "pub_date": "2026-06-24T10:00:00Z",
+  "version": "0.2.3",
+  "notes": "Ajoute : option 'Réveiller le PC' dans le Planificateur (sortie de veille programmée), affichage de la version de l'app sous le bouton de mise à jour, et l'Enregistreur d'écran est masqué de la barre latérale (peu utilisé, toujours disponible si besoin).",
+  "pub_date": "2026-06-24T11:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHFKUkdmVWRWS2UvRDhZaG5ONHI2VEt2ZDFNUkxkKy9qNVByYXFCclhidUN1eG5PeUFDdEhpdHcyMlZIZ3c0L3FZUTFLdlJDUmpJaWw5a2d5S1ZvbGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzAxMDE1CWZpbGU6QmlkdWxlXzAuMi4yX3g2NC1zZXR1cC5leGUKM1crc3ZXeDFCbE9oejYxZTcxSVhmekQrbXdCVXk2cW9VVlBIVFFUUTQ3dURlYWpRemlHSG5pRmpnTzgyK2dhVE4rUm4xY1dZcTJHODQyTk1tcEMvQnc9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.2.2/Bidule_0.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUG11N25PdjRBRDhEZU92TlhXWm1qSnBTR2pJc21oYWlIOVZqb0NSUkVlc0ZYbERYM2p0UDlZbTB3R01HeElORmFXS0g4MmZjcmpkSmNkV210dGVsZ3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzAyMjU0CWZpbGU6QmlkdWxlXzAuMi4zX3g2NC1zZXR1cC5leGUKRHZ5cE45VUNiZjhZT2w2UDdLRzNLbG83RnFJbWxSeFliQThTc25Xc2ZaSlJwb3EvdWU2QThZQWh6VXpsSnFsYTRQOVgxWlVaUE5tZGk2UVRDRVo4QXc9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.2.3/Bidule_0.2.3_x64-setup.exe"
     }
   }
 }
