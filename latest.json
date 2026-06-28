@@ -1,11 +1,11 @@
 {
-  "version": "0.7.1",
-  "notes": "Corrige le partage réseau local : un nom de fichier accentué (ex. 'compresséS.zip') faisait planter le serveur de partage côté envoyeur, provoquant 'http status: 500' au téléchargement. Corrige aussi un partage dont le fichier source a disparu (supprimé/déplacé) : il restait annoncé indéfiniment avec des informations périmées au lieu d'être retiré.",
-  "pub_date": "2026-06-25T18:00:00Z",
+  "version": "0.8.0",
+  "notes": "Nouvel outil Notes : des dossiers (avec description) contenant des notes éditables (titre, contenu, tags, copie en un clic), notables par étoiles. Référençables depuis un Canevas via un nouveau type d'élément. Nouvel outil Recherche : trouve tout (notes + éléments de canevas) par mot-clé ou tag, avec filtres de portée et de plage d'étoiles, résultats triés par pertinence. Corrige aussi le sélecteur de notation par étoiles, qui ne représentait pas correctement les demi-étoiles.",
+  "pub_date": "2026-06-28T12:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUG1iVUJXVFc4Y0tEQXRZaEo3dTNYMzgyMU5YVlRTbC9nWEtNZkpFbis1S29NSmI5TTY2MHdkUlU1aU5pWDZkUy9XSUcyUGFRZVlHTU1aSURjWCs4UHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzQ4MzI0CWZpbGU6QmlkdWxlXzAuNy4xX3g2NC1zZXR1cC5leGUKeG15a3FKTUJqaG5JYXdzTFNuaGhoT29vbVdGUWFyUGxHTlJDdlpjb2doUHJ2WXFMcE1QejZWVy81M3VVcjBFTXBEZ3o3MU8zRFhWSUtNUkhvQ2xuQnc9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.7.1/Bidule_0.7.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGdpbUlyUGxyUlUrRGtwYTI3QzJJWUtqTno0aGRMVGd0Z1poZlJjYTBkdjNRQVZzd051dlMzYUNlRVJNT2tUSjBnMDdUVmdPS3RGb2xOZXVGVXMvNkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNjA2MzM3CWZpbGU6QmlkdWxlXzAuOC4wX3g2NC1zZXR1cC5leGUKTFh3U05sU3U1MlJWVkJpeDc5a2tUODdNWkJXdjRTUEhaOHdFL3NIVmY4OHBlWG4rMmVpbVVSRERPSEoweXFnSVB0MExEK1BuWnkvaDk0UVYvQ3lzQ0E9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.8.0/Bidule_0.8.0_x64-setup.exe"
     }
   }
 }
