@@ -1,11 +1,11 @@
 {
-  "version": "0.8.0",
-  "notes": "Nouvel outil Notes : des dossiers (avec description) contenant des notes éditables (titre, contenu, tags, copie en un clic), notables par étoiles. Référençables depuis un Canevas via un nouveau type d'élément. Nouvel outil Recherche : trouve tout (notes + éléments de canevas) par mot-clé ou tag, avec filtres de portée et de plage d'étoiles, résultats triés par pertinence. Corrige aussi le sélecteur de notation par étoiles, qui ne représentait pas correctement les demi-étoiles.",
-  "pub_date": "2026-06-28T12:00:00Z",
+  "version": "0.9.0",
+  "notes": "Nouvel outil Undercover : jeu de societe en reseau (un imposteur a un mot proche mais different des agents), chiffre de bout en bout, avec mode roles caches, mots personnalisables, et code d'hote stable pour rejouer facilement. Plus : confirmations de suppression repensees dans une vraie fenetre de l'app (notes et canevas) au lieu du popup natif peu visible.",
+  "pub_date": "2026-06-29T12:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUGdpbUlyUGxyUlUrRGtwYTI3QzJJWUtqTno0aGRMVGd0Z1poZlJjYTBkdjNRQVZzd051dlMzYUNlRVJNT2tUSjBnMDdUVmdPS3RGb2xOZXVGVXMvNkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNjA2MzM3CWZpbGU6QmlkdWxlXzAuOC4wX3g2NC1zZXR1cC5leGUKTFh3U05sU3U1MlJWVkJpeDc5a2tUODdNWkJXdjRTUEhaOHdFL3NIVmY4OHBlWG4rMmVpbVVSRERPSEoweXFnSVB0MExEK1BuWnkvaDk0UVYvQ3lzQ0E9PQo=",
-      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.8.0/Bidule_0.8.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUK0JvN204d2UvUHNFeXBVaHVKSkhKT1V2SjdQOERjUk1BQk5ScGh1VFEwdHZEQjhXczBCelZGYVRkbWNLY0JaYklXWlhGS2ZjTjh4Ti92MTlQK3Iyc0s2b0tDNGU1c1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNjY3ODcyCWZpbGU6QmlkdWxlXzAuOS4wX3g2NC1zZXR1cC5leGUKQmVZMTlLQVJWTWRIaUk2N2NYOWNpeGxKVmQ5aVgxTzJNM2pwazl2c0pZcUdWNTRxSUF3c1hGdlAyZEFtK2FPL295RTFZQlAzdVF3QnYxaC9MVFhLRFE9PQo=",
+      "url": "https://github.com/Quentin-Red-Turtle/qrt-pkg-7f3a2e/releases/download/v0.9.0/Bidule_0.9.0_x64-setup.exe"
     }
   }
 }
